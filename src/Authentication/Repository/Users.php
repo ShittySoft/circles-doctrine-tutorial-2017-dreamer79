@@ -6,5 +6,5 @@ use Authentication\Entity\User;
 
 interface Users
 {
-    public function get(string $emailAddress) : User;
+    public function get(string $emailAddress) ;
 }
